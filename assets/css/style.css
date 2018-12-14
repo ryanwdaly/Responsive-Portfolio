@@ -213,5 +213,38 @@ input[type=submit] {
   color: #ffffff;
   cursor: pointer;
   background: #4aaaa5;
-  border: 0 none;
+  border: 0 none;ß
+}
+
+/* Responsive media screens */
+@media screen and (max-width: 980px) {
+    .container {
+    width: 100%;
+    max-width: 875px;
+    margin: 0 auto;
+    clear: both;
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+    clear: both;
+  }
+}
+
+
+
+@media screen and (max-width: 640px) {
+    .container {
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    clear: both;
+  }
+  #masthead logo {
+    position: static;
+  }
 }
