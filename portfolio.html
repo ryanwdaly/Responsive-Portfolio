@@ -1,64 +1,82 @@
-<!doctype html>
-<html lang="en-us">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Portfolio | Your Name</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Ryan Daly's</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Aaron Michael McNulty">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/icon/favicon.ico">
+    <link type="text/css" rel="stylesheet" href="assets/css/reset.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css">
 </head>
-
 <body>
-
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Your Name</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+    <!-- The entire content of the site except for the sticky footer -->
+    <div id="content">
+        <header>
+            <section>
+                <div id="myName">
+                    Ryan Daly
+                </div>
+                <nav>
+                    <div id="aboutButton" class="navButton">
+                        <a href="index.html">About</a>
+                    </div>
+                    <div id="portButton" class="navButton">
+                        <a href="portfolio.html">Portfolio</a>
+                    </div>
+                    <div id="contactButton" class="navButton">
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </nav>
+            </section>
+        </header>
+        <div id="bodyContent">
+            <section id="mainContent">
+                <h1>Portfolio</h1>
+                <div class="picSection">
+                    <div class="thumbnail left">
+                        <img src="assets/images/stock-programming-img.jpg" alt="example">
+                        <span class="label">Example 1</span>
+                    </div>
+                    <div class="thumbnail right">
+                        <img src="assets/images/stock-programming-img.jpg" alt="example">
+                        <span class="label">Example 2</span>
+                    </div>
+                </div>
+                <div class="picSection">
+                        <div class="thumbnail left">
+                            <img src="assets/images/stock-programming-img.jpg" alt="example">
+                            <span class="label">Example 3</span>
+                        </div>
+                        <div class="thumbnail right">
+                            <img src="assets/images/stock-programming-img.jpg" alt="example">
+                            <span class="label">Example 4</span>
+                        </div>
+                    </div>
+                    <div class="picSection">
+                        <div class="thumbnail left">
+                            <img src="assets/images/stock-programming-img.jpg" alt="example">
+                            <span class="label">Example 5</span>
+                        </div>
+                        <div class="thumbnail right">
+                            <img src="assets/images/stock-programming-img.jpg" alt="example">
+                            <span class="label">Example 6</span>
+                        </div>
+                    </div>
+            </section>
+            <section id="sideBar">
+              <h2>Connect With Me</h2>
+              <a href="https://github.com/ryanwdaly" class="socialIcon"><p>Github</p></a>
+              <a id="middleIcon" href="https://www.linkedin.com/feed/?trk=hb_signin"  class="socialIcon"><p>Linked In</p></a>
+          </section>
+        </div>
+        <!-- This is a blank div that is given the same height as the footer. This makes the body long enough to add in a footer without it overlapping content in the body. -->
+        <div class="push"></div>
     </div>
-  </header>
-
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>Portfolio</h1>
-
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
-
-        <h3>Word Guess</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
-
-        <h3>RPG Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
-
-        <h3>Trivia Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
-
-        <h3>Rutgers Info Widget</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
-
-        <h3>Rock Paper Scissors</h3>
-      </div>
-
-    </section>
-
-  </div>
-
-  <footer>
-    <div class="container">
-      Copyright &copy;
-    </div>
-  </footer>
+    <footer>
+        <p id="copyright">
+            Footer
+        </p>
+    </footer>
 </body>
-
 </html>
